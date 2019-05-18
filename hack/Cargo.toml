@@ -1,8 +1,14 @@
 [package]
 name = "slices-hack"
-version = "0.0.0"
+version = "0.1.0"
 authors = ["Boyu Yang <yangby@cryptape.com>"]
 edition = "2018"
+description = "A internal crate used by slices."
+homepage = "https://github.com/yangby-cryptape/rust-slices"
+repository = "https://github.com/yangby-cryptape/rust-slices"
+keywords = ["hex", "decode", "deserialize"]
+categories = ["development-tools", "encoding", "parsing"]
+license = "Apache-2.0 OR MIT"
 
 [lib]
 proc-macro = true
