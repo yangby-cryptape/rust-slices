@@ -1,12 +1,18 @@
 [package]
-name = "slices"
+name = "slices-hack"
 version = "0.0.0"
 authors = ["Boyu Yang <yangby@cryptape.com>"]
 edition = "2018"
 
+[lib]
+proc-macro = true
+
 [dependencies]
-hack = { package = "slices-hack", version = "=0.0.0", path = "hack" }
+syn = "~0.15"
+quote = "~0.6"
+proc-macro2 = "~0.4"
 proc-macro-hack = "~0.5"
+faster-hex = "~0.3"
 
 [badges]
 travis-ci = { repository = "yangby-cryptape/rust-slices" }
