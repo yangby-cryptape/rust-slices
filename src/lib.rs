@@ -11,7 +11,7 @@
 //! # Usage
 //!
 //! The input is a hexadecimal string literal with `0x` prefix.
-//! The size of input should be a even number.
+//! The size of input should be an even number.
 //!
 //! And you can use any number of `_` in the string literal to separate it for more readable.
 //!
