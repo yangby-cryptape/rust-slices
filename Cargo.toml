@@ -1,6 +1,6 @@
 [package]
 name = "slices"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Boyu Yang <yangby@cryptape.com>"]
 edition = "2018"
 description = "Convert string literals to static unsigned integer slices in compile time."
@@ -11,7 +11,7 @@ categories = ["development-tools", "encoding", "parsing"]
 license = "Apache-2.0 OR MIT"
 
 [dependencies]
-hack = { package = "slices-hack", version = "=0.1.0", path = "hack" }
+hack = { package = "slices-hack", version = "=0.1.1", path = "hack" }
 proc-macro-hack = "~0.5"
 
 [badges]
