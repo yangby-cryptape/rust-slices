@@ -4,6 +4,7 @@
 [![GitHub Actions]](https://github.com/yangby-cryptape/rust-slices/actions)
 [![Crate Badge]](https://crates.io/crates/slices)
 [![Crate Doc]](https://docs.rs/slices)
+[![MSRV 1.45.0]][Rust 1.45.0]
 
 Convert string literals to static unsigned integer slices in compile time.
 
@@ -11,6 +12,7 @@ Convert string literals to static unsigned integer slices in compile time.
 [GitHub Actions]: https://github.com/yangby-cryptape/rust-slices/workflows/CI/badge.svg
 [Crate Badge]: https://img.shields.io/crates/v/slices.svg
 [Crate Doc]: https://docs.rs/slices/badge.svg
+[MSRV 1.45.0]: https://img.shields.io/badge/rust-%3E%3D%201.45.0-blue
 
 ## Usage
 
@@ -34,10 +36,14 @@ fn main () {
 }
 ```
 
+## Minimum Supported Rust Version
+
+[Rust 1.45.0].
+
 ## License
 
-Licensed under either of [Apache License, Version 2.0] or [MIT License], at
-your option.
+Licensed under either of [Apache License, Version 2.0] or [MIT License], at your option.
 
 [Apache License, Version 2.0]: LICENSE-APACHE
 [MIT License]: LICENSE-MIT
+[Rust 1.45.0]: https://blog.rust-lang.org/2020/07/16/Rust-1.45.0.html

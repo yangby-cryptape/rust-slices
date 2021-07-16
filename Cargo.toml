@@ -10,6 +10,11 @@ keywords = ["hex", "decode", "deserialize"]
 categories = ["development-tools", "encoding", "parsing"]
 license = "Apache-2.0 OR MIT"
 
+[lib]
+proc-macro = true
+
 [dependencies]
-hack = { package = "slices-hack", version = "=0.1.1", path = "hack" }
-proc-macro-hack = "~0.5"
+syn = "1.0.73"
+quote = "1.0.9"
+proc-macro2 = "1.0.27"
+faster-hex = "0.6.0"
