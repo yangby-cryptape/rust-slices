@@ -1,14 +1,14 @@
 # Rust-Slices
 
 [![License]](#license)
-[![Travis CI]](https://travis-ci.com/yangby-cryptape/rust-slices)
+[![GitHub Actions]](https://github.com/yangby-cryptape/rust-slices/actions)
 [![Crate Badge]](https://crates.io/crates/slices)
 [![Crate Doc]](https://docs.rs/slices)
 
 Convert string literals to static unsigned integer slices in compile time.
 
 [License]: https://img.shields.io/badge/License-Apache--2.0%20OR%20MIT-blue.svg
-[Travis CI]: https://img.shields.io/travis/com/yangby-cryptape/rust-slices.svg
+[GitHub Actions]: https://github.com/yangby-cryptape/rust-slices/workflows/CI/badge.svg
 [Crate Badge]: https://img.shields.io/crates/v/slices.svg
 [Crate Doc]: https://docs.rs/slices/badge.svg
 

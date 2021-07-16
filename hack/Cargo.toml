@@ -19,6 +19,3 @@ quote = "~1.0"
 proc-macro2 = "~1.0"
 proc-macro-hack = "~0.5"
 faster-hex = "~0.4"
-
-[badges]
-travis-ci = { repository = "yangby-cryptape/rust-slices" }
